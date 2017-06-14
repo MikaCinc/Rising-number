@@ -1,0 +1,36 @@
+<html>
+	<head>
+			<script type="text/javascript" src="code.js"></script>
+			<link rel="stylesheet" type="text/css" href="style.css">
+			<title> Rising number! </title>
+			<meta charset="UTF-8">
+	</head>
+	<body>
+		<h1 id="naslov">Rising number:</h1>
+		<div id="progress_bar">
+			<div id="napredak_bar">
+			</div>
+		</div>
+		<br>
+		<button id="akcija"> Start </button>
+		<button id="faster" disabled> Brzo </button>
+		<button id="slower" disabled> Sporo </button>
+		<button id="stop"> Pauza </button>
+		<button id="reset"> Reset </button>
+		<p>Prikaži Progress Bar:</p><input type="checkbox" id="1/0_progress" checked onchange="progress_1_0()">
+		<p>Prikaži Konzolu:</p><input type="checkbox" id="1/0_konzola" checked onchange="konzola_1_0()">
+		<br>
+		<h2 id="number">:)</h3>
+		<br>
+		<p id="pokusaji"></p>
+		<br>
+		<p id="vreme"></p>
+		<br>
+		<div id="konzola" style="height: 300px; width: 200px; border: 1px solid #0f0; overflow: auto;">
+			<ul id="konzola_ul" >
+				<li>Let's Start!</li>
+			</ul>
+			<button id="cls"> cls </button>
+		</div>
+	</body>
+</html>

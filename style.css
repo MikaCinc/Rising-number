@@ -1,0 +1,39 @@
+body {
+	background: #000;
+}
+
+h1,h2,p {
+	color: #0f0;
+	font-family: courier new;
+	display: inline-block;
+	line-height: 4px;
+
+}
+
+li {
+	color: #0f0;
+	font-family: courier new;
+	font-size: 14px;
+}
+
+button {
+	display: inline-block;
+}
+
+#progress_bar {
+	display: inline-block;
+	width: 400pt;
+	height: 15pt;
+    background-color: grey;
+}
+
+#napredak_bar {
+	width: 200pt;
+    height: 15pt;
+    background-color: #0f0;
+    transition-duration: 0.4s;
+}
+
+#konzola_ul {
+	list-style: lower-roman;
+}
